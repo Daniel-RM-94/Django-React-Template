@@ -1,0 +1,53 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencias
+node_modules/
+venv/
+env/
+ENV/
+
+# Archivos de construcción
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Base de datos
+*.sqlite3
+*.db
+
+# Archivos de media y estáticos
+media/
+staticfiles/
+
+# Archivos de cobertura
+.coverage
+htmlcov/
+
+# Archivos de cache
+.cache/
+.pytest_cache/ 
