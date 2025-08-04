@@ -19,7 +19,7 @@ def api_root(request):
     Endpoint raíz de la API.
     """
     return Response({
-        'message': 'Bienvenido a la API de Web T Project',
+        'message': 'Bienvenido a la API de core',
         'endpoints': {
             'examples': '/api/examples/',
             'admin': '/admin/',

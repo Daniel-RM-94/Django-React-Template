@@ -1,5 +1,5 @@
 """
-Configuración de Django para el proyecto Web T Project.
+Configuración de Django para el proyecto core.
 """
 
 import os
@@ -45,7 +45,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'web_t_project.urls'
+ROOT_URLCONF = 'core.urls'
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'web_t_project.wsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 # Database
 DATABASES = {

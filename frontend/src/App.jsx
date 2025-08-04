@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Web T Project</h1>
+        <h1>Core Project</h1>
         <div className="card">
           <button onClick={() => setCount((count) => count + 1)}>
             Contador: {count}

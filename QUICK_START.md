@@ -1,4 +1,4 @@
-# 🚀 Inicio Rápido - Web T Project
+# 🚀 Inicio Rápido 
 
 ## Configuración Automática
 
@@ -14,7 +14,7 @@ bash scripts/setup.sh
 
 ## Configuración Manual
 
-### 1. Backend (Django 5.0.2)
+### 1. Backend (Django 5.2.4)
 
 ```bash
 # Navegar al directorio backend
@@ -75,7 +75,7 @@ source venv/bin/activate  # Linux/Mac
 
 # Verificar versión de Django
 python -c "import django; print(django.get_version())"
-# Debería mostrar: 5.0.2
+# Debería mostrar: 5.2.4
 
 # Verificar configuración completa
 python ../scripts/check_env.py

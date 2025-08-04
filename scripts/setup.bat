@@ -1,7 +1,7 @@
 @echo off
 
-REM Script de configuración inicial para Web T Project (Windows)
-echo 🚀 Configurando Web T Project...
+REM Script de configuración inicial para Core Project (Windows)
+echo 🚀 Configurando Core Project...
 
 REM Configurar backend
 echo 📦 Configurando backend (Django)...

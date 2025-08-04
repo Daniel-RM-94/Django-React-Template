@@ -1,4 +1,4 @@
-# Documentación del Proyecto Web T Project
+# Documentación del Proyecto
 
 ## Descripción General
 
@@ -13,7 +13,7 @@ Este proyecto es una aplicación web full-stack desarrollada con Django (backend
 - **Autenticación**: Sistema de autenticación de Django
 
 ### Frontend (React)
-- **Framework**: React 18.3.0
+- **Framework**: React 18.3.1
 - **Bundler**: Vite
 - **Routing**: React Router DOM
 - **HTTP Client**: Axios
@@ -27,7 +27,7 @@ Web_T_Project/
 │   ├── requirements.txt    # Dependencias de Python
 │   ├── env.example         # Variables de entorno de ejemplo
 │   ├── .gitignore          # Archivos a ignorar por Git
-│   ├── web_t_project/      # Configuración principal de Django
+│   ├── core/      # Configuración principal de Django
 │   └── apps/               # Aplicaciones Django
 │       └── api/            # API REST
 ├── frontend/               # Frontend React

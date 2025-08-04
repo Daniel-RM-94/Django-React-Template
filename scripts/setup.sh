@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script de configuración inicial para Web T Project
-echo "🚀 Configurando Web T Project..."
+echo "🚀 Configurando Core Project..."
 
 # Configurar backend
 echo "📦 Configurando backend (Django)..."

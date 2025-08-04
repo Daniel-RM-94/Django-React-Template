@@ -1,4 +1,4 @@
-# Web T Project
+# Project
 
 Aplicación web full-stack desarrollada con Django (backend) y React (frontend).
 
@@ -11,7 +11,7 @@ Web_T_Project/
 │   ├── requirements.txt
 │   ├── .env.example
 │   ├── .gitignore
-│   └── web_t_project/      # Proyecto Django principal
+│   └── core/      # Proyecto Django principal
 │       ├── __init__.py
 │       ├── settings.py
 │       ├── urls.py
@@ -47,7 +47,7 @@ Web_T_Project/
 ## Tecnologías
 
 - **Backend**: Django 5.2.4, Django REST Framework
-- **Frontend**: React 18.3.0, Vite
+- **Frontend**: React 18.3.1, Vite
 - **Base de Datos**: SQLite (desarrollo) / PostgreSQL (producción)
 
 ## Instalación y Configuración
@@ -64,7 +64,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-**Nota**: Django 5.0.2 requiere Python 3.10 o superior. El proyecto está configurado para usar un ambiente virtual que aísla las dependencias del sistema.
+**Nota**: Django 5.2.4 requiere Python 3.10 o superior. El proyecto está configurado para usar un ambiente virtual que aísla las dependencias del sistema.
 
 ### Frontend (React)
 

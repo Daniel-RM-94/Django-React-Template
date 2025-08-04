@@ -39,7 +39,7 @@ def check_django_installation():
         print(f"✅ Django instalado: {django.get_version()}")
         
         # Verificar que es la versión esperada
-        expected_version = "5.0.2"
+        expected_version = "5.2.4"
         if django.get_version() == expected_version:
             print(f"✅ Versión de Django correcta: {expected_version}")
             return True
@@ -90,7 +90,7 @@ def check_django_project():
     """Verificar que el proyecto Django está configurado correctamente."""
     try:
         # Intentar importar la configuración de Django
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'web_t_project.settings')
+        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
         import django
         django.setup()
         

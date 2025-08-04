@@ -153,7 +153,7 @@ backend/
 ├── env.example            # Variables de entorno de ejemplo
 ├── .env                   # Variables de entorno (crear desde env.example)
 ├── .gitignore             # Archivos a ignorar por Git
-├── web_t_project/         # Configuración principal de Django
+├── core/         # Configuración principal de Django
 │   ├── __init__.py
 │   ├── settings.py        # Configuración del proyecto
 │   ├── urls.py            # URLs principales
